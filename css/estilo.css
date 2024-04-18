@@ -1,0 +1,134 @@
+/* fondo */
+body {
+  background-image: url(../images/lauchafondo.png);
+  background-color: #dbd8e3;
+  margin: 0px;
+}
+
+/* fuenntes */
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 50px;
+}
+
+/* titulo clublaucha */
+header {
+  background-color: #5c5470;
+  text-align: center;
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(223, 223, 223);
+  font-size: larger;
+}
+
+/* nav fondo */
+nav {
+  background-color: #352f44;
+  overflow: hidden;
+}
+
+/* nav textos */
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+/* nav hover */
+nav a:hover {
+  background-color: #2a2438;
+  color: blanchedalmond;
+}
+
+/* texto principal */
+main {
+  padding: 50px;
+  background-color: #393e46;
+  color: rgb(223, 223, 223);
+  font-size: 18px;
+}
+
+/* pie de pagina */
+footer {
+  background-color: #5c5470;
+  text-align: center;
+  padding: 15px;
+  width: 98.4%;
+  margin: auto 0;
+  color: rgb(223, 223, 223);
+  text-decoration: none;
+}
+
+p {
+  display: inline;
+  overflow: hidden;
+}
+
+#laucha1 {
+  float: right;
+  object-position: right top;
+  margin: -35px 10px -15px 15px;
+  border: 12px solid #5c5470;
+}
+
+#laucha2 {
+  display: block;
+  float: left;
+  margin: 3px 30px 15px 15px;
+  border: 12px solid #5c5470;
+}
+
+#laucha3 {
+  display: block;
+  float: right;
+  object-position: right bottom;
+  margin: -85px 15px 15px 15px;
+  border: 12px solid #5c5470;
+}
+
+#estado {
+  background-color: white;
+  display: block;
+  object-position: bottom right;
+  float: right;
+  margin: 20px 0px 0px 0px;
+  border: 12px solid #5c5470;
+}
+
+#ubicacion {
+  float: right;
+  display: block;
+  background-color: #5c5470;
+  border: 8px solid #5c5470;
+  margin: 6px 0px 0px 0px;
+}
+
+#imgubicacion {
+  display: block;
+  margin: 0px 0px 0px 0px;
+}
+
+#lauchahabitat {
+  float: right;
+  object-position: right top;
+  margin: -110px 10px 10px 15px;
+  border: 12px solid #5c5470;
+}
+
+.galeria img {
+  margin: 2%;
+  border: 13px solid #5c5470;
+  height: 230px;
+}
+
+#contact {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  font-size: 23px;
+}
