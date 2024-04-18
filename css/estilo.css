@@ -54,7 +54,7 @@ main {
 /* pie de pagina */
 footer {
   background-color: #5c5470;
-  text-align: center;
+  text-align:justify;
   padding: 15px;
   width: 98.4%;
   margin: auto 0;
